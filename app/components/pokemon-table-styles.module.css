@@ -1,0 +1,51 @@
+.row td,
+.row th,
+.table {
+  border: 1px solid black;
+}
+
+
+/* Center the table*/
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+}
+
+/* Just to make the table look nice */
+.table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px 0;
+}
+
+/* Headers */
+.table th {
+  background-color: #319934;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Rows */
+.table td {
+  background-color: #f2f2f2; /* Light grey background */
+  border: 1px solid #e4dede; /* Light grey border */
+  padding: 8px;
+  text-align: center;
+}
+
+
+/* Button */
+.reloadButton {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px;
+}
+

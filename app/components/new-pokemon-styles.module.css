@@ -1,0 +1,56 @@
+.mainForm {
+  display: flex;
+  gap: 10px;
+}
+
+/* Container for the form */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+/* heading */
+.formHeading {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333; /* Dark grey color for better readability */
+}
+
+/* form elements */
+.mainForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 500px; /* Maximum width for better readability */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for a subtle 3D effect */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+/* form fields */
+.mainForm div {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainForm label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* submit button */
+.submitButton {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
